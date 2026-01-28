@@ -18,7 +18,7 @@ Server will run at:
 http://127.0.0.1:5000
 
 ### 3. The Logic (How I Thought)
-Why did I choose this approach?
+#### Why did I choose this approach?
 
 The project requirement focuses on in-memory storage, so I used a Python dictionary (books = {}) to store all book records during runtime. No database is used.
 
@@ -40,7 +40,7 @@ books = {
     }
 }
 
-Hardest Bug Faced & How I Fixed It : 
+#### Hardest Bug Faced & How I Fixed It : 
 
 While testing the API, invalid or missing JSON input caused unexpected behavior.
 To fix this, I added validation:
@@ -60,6 +60,7 @@ Added proper HTTP status codes:
 201 for successful creation
 
 This ensures the API behaves predictably and follows REST standards.
+
 
 ### 4. Ouput ScreenShots
 Add Book (POST /books)
