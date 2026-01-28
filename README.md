@@ -63,16 +63,24 @@ This ensures the API behaves predictably and follows REST standards.
 
 
 ### 4. Ouput ScreenShots
-Add Book (POST /books)
+* Add Book (POST /books)
+![add book](https://github.com/user-attachments/assets/db973dac-3679-4f4d-8988-8fab5ba9f6e8)
 
 
-Get Book by iD(Get /books/{id})
+
+* Get Book by iD(Get /books/{id})
+![get_book_by_id](https://github.com/user-attachments/assets/1b67f583-51b1-44d9-8b8e-3f55252c7fd8)
 
 
-SEARCH BOOK BY YEAR(GET /books/search?year=2018)
+
+* SEARCH BOOK BY YEAR(GET /books/search?year=2018)
+<img width="1907" height="1015" alt="search book by year" src="https://github.com/user-attachments/assets/72f8eae2-c96b-44a0-be68-d05e53b3719e" />
 
 
-Delete Book (DELETE /books/{id}
+
+* Delete Book (DELETE /books/{id}
+![delete_book_by_id](https://github.com/user-attachments/assets/fd22892e-1c1a-4479-bad1-74680471242b)
+
 
 
 ### 5. Future Improvements
